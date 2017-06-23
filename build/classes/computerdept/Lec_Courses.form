@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="COURSES AND LECTURER"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Component id="lec" min="-2" pref="281" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="cc" min="-2" pref="281" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jButton2" alignment="0" min="-2" pref="95" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cc" alignment="3" min="-2" pref="37" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lec" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="43" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="COURSES AND LECTURER"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="COURSES CODE:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="18" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="LECTURER ID:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cc">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="65">
+                <StringItem index="0" value="GENERAL MATHEMATICS 1"/>
+                <StringItem index="1" value="USE OF LIBRARY"/>
+                <StringItem index="2" value="COMMUNICATION IN ENGLISH 1"/>
+                <StringItem index="3" value="PRACTICAL BIOLOGY"/>
+                <StringItem index="4" value="GENERAL BIOLOGY 1"/>
+                <StringItem index="5" value="PRACTICAL CHEMISTRY"/>
+                <StringItem index="6" value="GENERAL PHYSICAL CHEMISTRY"/>
+                <StringItem index="7" value="EXPERIMENTAL PHYSICS 1"/>
+                <StringItem index="8" value="GENERAL PHYSICS 1"/>
+                <StringItem index="9" value="INTRODUCTION TO COMPUTER SCIENCE"/>
+                <StringItem index="10" value="DATA ANALYSIS"/>
+                <StringItem index="11" value="PRACTICAL CHEMISTRY"/>
+                <StringItem index="12" value="AFRICAN CULTURE, CIVILIZATION AND NIGERIAN PEOPLE"/>
+                <StringItem index="13" value="EXPERIMENTAL PHYSICS 11"/>
+                <StringItem index="14" value="GENERAL PHYSICS II"/>
+                <StringItem index="15" value="INTR TO OBJECT ORIENTED PROGRMMING"/>
+                <StringItem index="16" value="VECTORS AND DYNAMICS"/>
+                <StringItem index="17" value="THEORETICAL STATISTICS"/>
+                <StringItem index="18" value="GENERAL MATHEMTICS 11"/>
+                <StringItem index="19" value="PHILOSOPHY, LOGIC AND CONFLICT RESOLUTION"/>
+                <StringItem index="20" value="INTRODUCTION TO FILE PROCESSING"/>
+                <StringItem index="21" value="COMPUTER PROGRAMING1"/>
+                <StringItem index="22" value="STATISTICAL METHODS"/>
+                <StringItem index="23" value="ESTIMATION THEORY"/>
+                <StringItem index="24" value="LINEAR ALGEBRA1"/>
+                <StringItem index="25" value="SET,LOGIC AND ALGEBRA"/>
+                <StringItem index="26" value="MATHEMATICAL METHODS1"/>
+                <StringItem index="27" value="COMUNICATION IN ENGLISH11"/>
+                <StringItem index="28" value="INTRODUCTION TO COMPUTES SYSTEMS"/>
+                <StringItem index="29" value="COMPUTER PROGRAMING11"/>
+                <StringItem index="30" value="INTRO.TO OPERATION RESEARCH"/>
+                <StringItem index="31" value="REAL ANALYSIS1"/>
+                <StringItem index="32" value="ELEMENTARY DIFFERENTIAL EQUATION"/>
+                <StringItem index="33" value="LINEAR ALGEBRA 11"/>
+                <StringItem index="34" value="NUMERICAL ANALYSIS 1"/>
+                <StringItem index="35" value="PROBABILITY11"/>
+                <StringItem index="36" value="ENTREPRENEURSHIP SKILLS"/>
+                <StringItem index="37" value="OPERATIONS RESEARCH"/>
+                <StringItem index="38" value="DISCRETE MATHEMATICS, NETWORK &amp; GRAPH THEORY"/>
+                <StringItem index="39" value="SYSTEMS ANALYSIS AND DESIGN"/>
+                <StringItem index="40" value="INTRODUCTION TO FORMAL LANGUAGE"/>
+                <StringItem index="41" value="DIGITAL COMPUTER DESIGN"/>
+                <StringItem index="42" value="DATA STRUCTURES"/>
+                <StringItem index="43" value="WEB TECHNOLOGY AND APPLICATIONS"/>
+                <StringItem index="44" value="COMPILER CONSTRUCTION"/>
+                <StringItem index="45" value="COMPUTER ARCHITECTURE"/>
+                <StringItem index="46" value="RESEARCH METHODOLOGY"/>
+                <StringItem index="47" value="INDUSTRIAL TRAINING"/>
+                <StringItem index="48" value="OPERATING SYSTEMS"/>
+                <StringItem index="49" value="MANAGEMENT SCIENCE"/>
+                <StringItem index="50" value="HUMAN COMPUTER INTERACTION"/>
+                <StringItem index="51" value="ARTIFICIAL INTELLIGENCE"/>
+                <StringItem index="52" value="SYSTEMS PROGRAMMING"/>
+                <StringItem index="53" value="DATABASE MANAGEMENT"/>
+                <StringItem index="54" value="DESIGN &amp; ANALYSIS OF COMPUTER ALGORITHMS"/>
+                <StringItem index="55" value="RESEARCH SEMINAR AND INDUSTRIAL TRAINING REPORT"/>
+                <StringItem index="56" value="NUMERICAL ANALYSIS"/>
+                <StringItem index="57" value="ADVANCED DIGITAL COMPUTER DESIGN"/>
+                <StringItem index="58" value="SIMULATIONS &amp; PROBABILITY MODELS"/>
+                <StringItem index="59" value="GRAPH THEORY AND APPLICATIONS"/>
+                <StringItem index="60" value="C PROGRAMMING OR ADV ASSEMBLY LANG"/>
+                <StringItem index="61" value="DATA COMMUNICATIONS AND NETWORKS"/>
+                <StringItem index="62" value="CONCEPT OF PROGRAMMING LANGUAGES"/>
+                <StringItem index="63" value="PROJECT"/>
+                <StringItem index="64" value="SOFTWARE ENGINEERING"/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="lec">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SEARCH"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="SUBMIT"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="DELETE"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="UPDATE"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
